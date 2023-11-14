@@ -629,6 +629,14 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5998668444110204620, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_Name
       value: Registration Panel
@@ -1286,6 +1294,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1254616235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 4748623806100861117}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1432329064
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1533,6 +1546,31 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
   m_PrefabInstance: {fileID: 1483458625}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1756366887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5998668444110204620, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+  m_PrefabInstance: {fileID: 415903923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &1756366888 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+  m_PrefabInstance: {fileID: 415903923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1756366889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756366887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4cf318ec44148609f25174b18515bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartPanel: 0
+  closeButtons: []
+  canvasGroup: {fileID: 1756366888}
 --- !u!1001 &1758769545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1774,10 +1812,102 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5998668444110204621, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
   m_PrefabInstance: {fileID: 5998668442417310550}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1817399678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 1768303505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1817399679 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235329, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 1768303505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817399678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1817399682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817399678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a56be87d14194f64b3224f286093f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1817399679}
+  sceneType: 1
 --- !u!224 &1999387067 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
   m_PrefabInstance: {fileID: 4748623806100861117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1999387068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235329, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 4748623806100861117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254616235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1999387071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254616235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a56be87d14194f64b3224f286093f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 1999387068}
+  sceneType: 1
+--- !u!1 &2003835161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 1483458625}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2003835162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235329, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 1483458625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003835161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2003835165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003835161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d6c02887bc94aabb43e842f66b2607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2003835162}
+  uiPanel: {fileID: 2049031111}
+  panelToClose:
+  - {fileID: 1756366889}
+--- !u!1 &2007899017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 2141341983}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2013534773
 PrefabInstance:
@@ -1894,6 +2024,31 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8519916053860708790, guid: 3169b216390594b759682d387aff8dcc, type: 3}
   m_PrefabInstance: {fileID: 2013534773}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2049031109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5998668444110204620, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+  m_PrefabInstance: {fileID: 5998668442417310550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &2049031110 stripped
+CanvasGroup:
+  m_CorrespondingSourceObject: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+  m_PrefabInstance: {fileID: 5998668442417310550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2049031111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049031109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4cf318ec44148609f25174b18515bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartPanel: 1
+  closeButtons: []
+  canvasGroup: {fileID: 2049031110}
 --- !u!1 &2103345324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,6 +2377,33 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
   m_PrefabInstance: {fileID: 2141341983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2141341985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4748623806287235329, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+  m_PrefabInstance: {fileID: 2141341983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007899017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2141341988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007899017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9d6c02887bc94aabb43e842f66b2607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 2141341985}
+  uiPanel: {fileID: 1756366889}
+  panelToClose:
+  - {fileID: 2049031111}
 --- !u!1001 &4748623806100861117
 PrefabInstance:
   m_ObjectHideFlags: 0
