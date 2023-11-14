@@ -405,7 +405,7 @@ RectTransform:
   - {fileID: 173784687}
   - {fileID: 622757011}
   m_Father: {fileID: 1797883291}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -625,6 +625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 927185871}
     m_Modifications:
+    - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5998668444110204620, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_Name
       value: Registration Panel
@@ -2080,7 +2084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8250249053858846655, guid: 7502e359f9aba40f79f0e9751ef0e6dd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -148
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250249053858846655, guid: 7502e359f9aba40f79f0e9751ef0e6dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2336,7 +2340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_Alpha
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5998668444110204620, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_Name
