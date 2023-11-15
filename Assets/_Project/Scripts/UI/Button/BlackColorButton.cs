@@ -9,20 +9,20 @@ namespace UI.Buttons
         [SerializeField] private Color textColorOn;
         [SerializeField] private Color textColorOff;
         [SerializeField] private TextMeshProUGUI buttonText;
-        [SerializeField] private Sprite onSprite;
-        [SerializeField] private Sprite offSprite;
+        [SerializeField] private Color spriteColorOn;
+        [SerializeField] private Color spriteColorOff;
 
         public override void SetButtonOn()
         {
             base.SetButtonOn();
-            buttonImage.sprite = onSprite;
+            buttonImage.color = spriteColorOn;
             buttonText.color = textColorOn;
         }
 
         public override void SetButtonOff()
         {
             base.SetButtonOff();
-            buttonImage.sprite = offSprite;
+            buttonImage.color = spriteColorOff;
             buttonText.color = textColorOff;
         }
     }
