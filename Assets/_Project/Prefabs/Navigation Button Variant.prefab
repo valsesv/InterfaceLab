@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4473440512653133783}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -81,6 +80,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4178369600715918416, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
@@ -217,13 +217,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9083174793801739993, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
       propertyPath: m_fontSize
-      value: 37.8
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 9083174793801739993, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
       propertyPath: m_fontSizeMax
       value: 38
       objectReference: {fileID: 0}
+    - target: {fileID: 9083174793801739993, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7735144758560264699, guid: 1ecab3e7bbd09465fa4590b095a0d12f, type: 2}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6325562388406831658}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3760125349980758301}
+    - targetCorrespondingSourceObject: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8502167614655011175}
   m_SourcePrefab: {fileID: 100100000, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
 --- !u!114 &4473440512653133776 stripped
 MonoBehaviour:
@@ -265,6 +281,22 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!114 &8502167614655011175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4473440512653133782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c5f4656d3948dd896c68d994ea6da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button: {fileID: 4473440512653133776}
+  buttonImage: {fileID: 1087012556472245563}
+  colorOn: {r: 1, g: 1, b: 1, a: 1}
+  colorOff: {r: 1, g: 1, b: 1, a: 0.47058824}
 --- !u!224 &4473440512653133783 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
