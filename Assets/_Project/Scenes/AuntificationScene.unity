@@ -2394,6 +2394,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 622757011}
     m_Modifications:
+    - target: {fileID: 3188966560031345674, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748623806287235328, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748623806287235328, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: efc01f7b6ff9886418292ee8e2efaa90, type: 3}
     - target: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2550,6 +2562,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 622757011}
     m_Modifications:
+    - target: {fileID: 3188966560031345674, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748623806287235328, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748623806287235328, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b81773f2a2145f4aa93bfc1b4cb56ec, type: 3}
     - target: {fileID: 4748623806287235334, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2649,6 +2673,14 @@ PrefabInstance:
     - target: {fileID: 4748623806287235335, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
       propertyPath: m_Name
       value: Enter Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 9083174793801739993, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -7735144758560264699, guid: 1ecab3e7bbd09465fa4590b095a0d12f, type: 2}
+    - target: {fileID: 9083174793801739993, guid: f1343a67a687c47f7a8831a11058f9e5, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
