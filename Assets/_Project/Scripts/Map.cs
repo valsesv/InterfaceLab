@@ -27,7 +27,7 @@ public class Map : MonoBehaviour
     private resolution mapResolutionLast = resolution.low;
     private type mapTypeLast = type.roadmap;
     private bool updateMap = true;
-    
+
     private void Start()
     {
         StartCoroutine(GetGoogleMap());
