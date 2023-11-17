@@ -2327,18 +2327,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orderer
       objectReference: {fileID: 0}
-    - target: {fileID: 9205168931361391644, guid: ccbe26c5da7be4dffa4b4f23c73be8d6, type: 3}
-      propertyPath: m_Color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9205168931361391644, guid: ccbe26c5da7be4dffa4b4f23c73be8d6, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9205168931361391644, guid: ccbe26c5da7be4dffa4b4f23c73be8d6, type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9205168931361391645, guid: ccbe26c5da7be4dffa4b4f23c73be8d6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 3

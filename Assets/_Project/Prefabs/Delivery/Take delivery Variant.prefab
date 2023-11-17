@@ -487,7 +487,7 @@ MonoBehaviour:
   buttons:
   - {fileID: 6743772351279399374}
   - {fileID: 4909316329927159950}
-  startButton: {fileID: 4909316329927159950}
+  startButton: {fileID: 6743772351279399374}
 --- !u!1 &3825955747408487892
 GameObject:
   m_ObjectHideFlags: 0
