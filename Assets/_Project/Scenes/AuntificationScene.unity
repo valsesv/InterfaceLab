@@ -1012,11 +1012,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 474161755493862794, guid: d24346fe73292442ea3feb4dcf4681d4, type: 3}
       propertyPath: m_text
-      value: "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F"
+      value: "\u0421\u043E\u0437\u0434\u0430\u0442\u044C "
       objectReference: {fileID: 0}
     - target: {fileID: 474161755493862794, guid: d24346fe73292442ea3feb4dcf4681d4, type: 3}
       propertyPath: m_fontSize
-      value: 14.6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4143281911758514772, guid: d24346fe73292442ea3feb4dcf4681d4, type: 3}
       propertyPath: m_Name

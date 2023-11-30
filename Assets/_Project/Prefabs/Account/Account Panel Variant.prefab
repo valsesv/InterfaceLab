@@ -1166,7 +1166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5998668444110204618, guid: 8914dcd3ed2ef4eb58c73ce25909b72b, type: 3}
       propertyPath: m_BlocksRaycasts

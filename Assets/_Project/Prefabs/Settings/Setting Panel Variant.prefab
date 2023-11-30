@@ -2325,10 +2325,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6754128168826657234}
     m_Modifications:
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: spriteOn
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d36a9fbccb2cd449a11c8e7d7dc253b, type: 3}
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: spriteOff
+      value: 
+      objectReference: {fileID: 21300000, guid: fd13de4318b6cc74daaaa9c734aac4db, type: 3}
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: imageToChange
+      value: 
+      objectReference: {fileID: 8925136570765978261}
     - target: {fileID: 5510188667706625861, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e77b4922ed8051449998c4e6418cf087, type: 3}
+      objectReference: {fileID: 21300000, guid: 6d36a9fbccb2cd449a11c8e7d7dc253b, type: 3}
     - target: {fileID: 5700719569407672058, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2439,6 +2451,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5700719569407672058, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
   m_PrefabInstance: {fileID: 4009447260308104656}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8925136570765978261 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5510188667706625861, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+  m_PrefabInstance: {fileID: 4009447260308104656}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5176903986002244614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2801,6 +2824,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6754128168826657234}
     m_Modifications:
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: spriteOn
+      value: 
+      objectReference: {fileID: 21300000, guid: b37b978a87d19de479e8f7573a862725, type: 3}
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: spriteOff
+      value: 
+      objectReference: {fileID: 21300000, guid: ede8fd5da1ab41e4aaeab88376c00877, type: 3}
+    - target: {fileID: 299079947448108293, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+      propertyPath: imageToChange
+      value: 
+      objectReference: {fileID: 1520859188839975617}
     - target: {fileID: 5510188667706625861, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2910,6 +2945,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+--- !u!114 &1520859188839975617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5510188667706625861, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
+  m_PrefabInstance: {fileID: 6441047116494882180}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1620790121954687870 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5700719569407672058, guid: fc59992e951ef4d44bc3a617e9ea24e7, type: 3}
